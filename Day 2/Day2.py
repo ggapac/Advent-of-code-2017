@@ -4,6 +4,7 @@ fname = "day2.txt"
 
 
 def tonumbers(line):
+	# Split input to rows, parse and sort the integers
     return sorted(list(map(int, line.split())))
 
 
